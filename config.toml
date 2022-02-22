@@ -1,13 +1,16 @@
 baseURL = 'http://sophieclayton.github.io'
-
 title = 'Fun with data'
-
 defaultContentLanguage = "en"
 # language code
 languageCode = "en"
-
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
+
+# Author config
+[author]
+  name = "Sophie Clayton"
+  email = ""
+  link = "http://funwithdata.netlify.app"
 
 [params]
   # LoveIt theme version
@@ -53,3 +56,28 @@ theme = "LoveIt"
     # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
     noClasses = false
 
+[params.footer]
+    enable = true
+    # LoveIt NEW | 0.2.0 Custom content (HTML format is supported)
+    custom = ''
+    # LoveIt NEW | 0.2.0 whether to show Hugo and theme info
+    hugo = true
+    # LoveIt NEW | 0.2.0 whether to show copyright info
+    copyright = true
+    # LoveIt NEW | 0.2.0 whether to show the author
+    author = true
+    # Site creation time
+    since = 2022
+    # license info (HTML format is supported)
+    license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+    
+    [params.social]
+    GitHub = "sophieclayton"
+    Linkedin = ""
+    Telegram = "xxxx"
+    Medium = ""
+    Gitlab = ""
+    Stackoverflow = ""
+    Googlescholar = ""
+    Email = "xxxx@xxxx.com"
+    RSS = true # LoveIt NEW | 0.2.0
