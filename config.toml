@@ -12,7 +12,11 @@ theme = "LoveIt"
 [params]
   # LoveIt theme version
   version = "0.2.X"
-
+  keywords = ["Theme", "Hugo"]
+  # site default theme ("light", "dark", "auto")
+  defaultTheme = "dark"
+  
+  
 [menu]
   [[menu.main]]
     identifier = "posts"
